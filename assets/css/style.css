@@ -1,0 +1,12 @@
+:root {
+    --dark-bkg: rgb(38, 35, 49);
+    --text-clr: rgb(157, 154, 190);
+}
+
+
+
+* {
+    background-color: var(--dark-bkg);
+    font-family: 'Courier New', Courier, monospace;
+    color: var(--text-clr);
+}
