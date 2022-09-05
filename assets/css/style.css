@@ -1,6 +1,7 @@
 :root {
     --dark-bkg: rgb(38, 35, 49);
     --text-clr: rgb(157, 154, 190);
+    --text-clr2: rgb(225, 223, 250);
 }
 
 
@@ -9,4 +10,128 @@
     background-color: var(--dark-bkg);
     font-family: 'Courier New', Courier, monospace;
     color: var(--text-clr);
+    line-height: 20px;
 }
+
+p, li {
+    color: var(--text-clr2);
+}
+
+/* HEADER */
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+header h1 {
+    display: inline-block;
+    font-size: 48px;
+    padding-left: 20px;
+}
+
+header ul li {
+    display: inline-block;
+    margin: 10px;
+    
+}
+
+.header-image {
+    display: block;
+    width: 100%;
+}
+
+/* MAIN */
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding: 10px;
+}
+
+/* ARTICLES */
+
+aside {
+    max-width: 20%;
+    text-align: right;
+}
+
+aside h2 {
+    font-size: 250%;
+    position:relative;
+    bottom: -90px;
+    line-height: 80%;
+}
+
+article {
+    margin:10px 0px 10px 15%;
+    justify-content: end;
+    border-left: 3px solid var(--text-clr2);
+}
+
+
+/* I hate having to resort to this but nth child isnt working */
+/* 
+#h2-0 {
+    padding: 1% 2% 0px 8%;
+}
+
+#h2-1 {
+    padding: 1% 2% 0px 4%;
+}
+
+#h2-2 {
+    padding: 1% 2% 0px 5%;
+} */
+
+/* 1 */
+
+main p {
+    padding: 1% 0px 1% 1%;
+}
+
+
+article ul {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    padding: 2% 0%;
+}
+
+.card-container {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-around;
+}
+
+.cards img {
+    margin: 1%;
+    max-width: 300px;
+}
+
+.image-plate {
+    display: inline-block;
+    background-color: var(--dark-bkg);
+    padding: 1% 4%;
+}
+.image-plate h3 {
+    position:relative;
+    bottom: -250px;
+}
+.image-plate p {
+    position: relative;
+    bottom: -230px;
+    left: 10px;
+}
+
+
+article ul li {
+    list-style: none;
+}
+
+footer {
+    text-align: center;
+}
+
