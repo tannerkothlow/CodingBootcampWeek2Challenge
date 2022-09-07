@@ -9,29 +9,31 @@
     <link rel="stylesheet" href="./assets/css/style.css" />
 </head>
 <body>
+    <div class ="sticky-container">
     <header>
         <!-- For extra credit, add flex sticky over the header image -->
         <h1>Kothlow</h1>
         <ul>
             <!-- Hyperlinks, display inline -->
-            <li>About Me</li>
-            <li>Work</li>
-            <li>Contact Me</li>
-            <li>Resume</li>
+            <li><a href="#article-about-me">About Me</a></li>
+            <li><a href="#article-work">Work</a></li>
+            <li><a href="#article-contact-me">Contact Me</a></li>
+            <li><a href="#article-contact-me">Contact Me</a></li>
         </ul>
     </header>
 
     <div class="header-image">
         <img src="./assets/images/placeholder_banner.PNG" alt="">
+        <h2>Cool Subtitle!</h2>
     </div> 
-
+    </div>
 
     <main>
         <!-- border-left styling for that line -->
         <aside>
-        <h2>About Me</h2>
+        <h2>About <br> Me</h2>
         </aside>
-        <article>
+        <article a id="article-about-me"></a>
             <p>
                 Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
                 Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer 
@@ -40,31 +42,52 @@
                 It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more 
                 recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
             </p>
-            <p>Im going to hit myself with a shovel as hard as i possibly can</p>
+            <p> <:) we're getting it </p>
         </article>
 
         <aside>
         <h2>Work</h2>
         </aside>
-        <article>
+        <article a id="article-work"></a>
          <div class="card-container">
-          <div class="cards">
+
+            <div class="cards">
             <h3>Surf Report</h3>
+            <p>bla bla</p>
+            </div>
+
+            <div class="cards">
+            <h3>LED Wall</h3>
+            <p>bla bla</p>
+            </div>
+
+            <div class="cards">
+            <h3>Scooby Doo</h3>
+            <p>bla bla</p>
+            </div>
+
+            <div class="cards">
+            <h3>Uhhhhhh</h3>
+            <p>bla bla</p>
+            </div>
+
+            <div class="cards">
+            <h3>Calculator or something</h3>
             <p>bla bla</p>
             </div>
 
         </article>
 
         <aside>
-        <h2>Contact Me</h2>
+        <h2>Contact <br> Me</h2>
         </aside>
-        <article>
+        <article a id="article-contact-me"></a>
         <ul>
             <!-- Contact details, display inlline -->
-            <li>Phone Number</li>
-            <li>email</li>
-            <li>GitHub</li>
-            <li>LinkedIn</li>
+            <li><a href="">555-555-5555</a></li>
+            <li><a href="">tannerkothlow@msn.com</a></li>
+            <li><a href="https://github.com/tannerkothlow">GitHub</a></li>
+            <li data-linkedin="Coming Soon!"><a href="">LinkedIn</a></li>
         </ul>
     </article>
     </main>
