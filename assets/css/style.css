@@ -168,7 +168,7 @@ article p {
 }
 
 .cards:nth-child(2) {
-    background-image: url(../images/card2_javascript2.png);
+    background-image: url(../images/card2_javascript2.PNG);
     background-color: rgb(30, 30, 30);
 } 
 
