@@ -15,7 +15,7 @@ Lastly, employing the same hyperlink transitions to the About Me category reemph
 
 ## Instalation 
 N/A Already deployed on GitHub pages.
-(url)
+https://tannerkothlow.github.io/Week-2-Portoflio-Prototype/
 
 ## Usage 
 
